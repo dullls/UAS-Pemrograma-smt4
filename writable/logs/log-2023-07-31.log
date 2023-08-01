@@ -1,0 +1,169 @@
+CRITICAL - 2023-07-31 10:21:42 --> Undefined variable $user
+in APPPATH\Views\layout\page_gudang.php on line 60.
+ 1 APPPATH\Views\layout\page_gudang.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\layout\\page_gudang.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\page_gudang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/page_gudang', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('gudang', [], true)
+ 6 APPPATH\Controllers\Home.php(23): view('gudang', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->loginG()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-31 11:44:06 --> Undefined variable $dta
+in APPPATH\Views\layout\page_gudang.php on line 29.
+ 1 APPPATH\Views\layout\page_gudang.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dta', 'APPPATH\\Views\\layout\\page_gudang.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\page_gudang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/page_gudang', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('gudang', [], true)
+ 6 APPPATH\Controllers\Home.php(23): view('gudang', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->loginG()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 11:44:14 --> Undefined variable $dta
+in APPPATH\Views\layout\page_gudang.php on line 29.
+ 1 APPPATH\Views\layout\page_gudang.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dta', 'APPPATH\\Views\\layout\\page_gudang.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\page_gudang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/page_gudang', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('gudang', [], true)
+ 6 APPPATH\Controllers\Home.php(23): view('gudang', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->loginG()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:15:26 --> Class "config\Database" not found
+in APPPATH\Controllers\Data.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:16:10 --> Class "config\Database" not found
+in APPPATH\Controllers\Data.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:16:10 --> Class "config\Database" not found
+in APPPATH\Controllers\Data.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:16:11 --> Class "config\Database" not found
+in APPPATH\Controllers\Data.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:16:11 --> Class "config\Database" not found
+in APPPATH\Controllers\Data.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:16:11 --> Class "config\Database" not found
+in APPPATH\Controllers\Data.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:16:11 --> Class "config\Database" not found
+in APPPATH\Controllers\Data.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:19:03 --> Class "config\Database" not found
+in APPPATH\Controllers\Data.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:20:28 --> Class "config\Database" not found
+in APPPATH\Controllers\Data.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:20:30 --> Class "config\Database" not found
+in APPPATH\Controllers\Data.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:20:39 --> Class "config\Database" not found
+in APPPATH\Controllers\Data.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:31:43 --> Class "config\Database" not found
+in APPPATH\Controllers\Data.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:31:51 --> Class "config\Database" not found
+in APPPATH\Controllers\Data.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:45:38 --> Undefined property: App\Controllers\Data::$DataModel
+in APPPATH\Controllers\Data.php on line 17.
+ 1 APPPATH\Controllers\Data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Data::$DataModel', 'APPPATH\\Controllers\\Data.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:46:35 --> Undefined property: App\Controllers\Data::$DataModel
+in APPPATH\Controllers\Data.php on line 17.
+ 1 APPPATH\Controllers\Data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Data::$DataModel', 'APPPATH\\Controllers\\Data.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:46:35 --> Undefined property: App\Controllers\Data::$DataModel
+in APPPATH\Controllers\Data.php on line 17.
+ 1 APPPATH\Controllers\Data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Data::$DataModel', 'APPPATH\\Controllers\\Data.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:49:58 --> Undefined property: App\Controllers\Data::$DataModel
+in APPPATH\Controllers\Data.php on line 17.
+ 1 APPPATH\Controllers\Data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Data::$DataModel', 'APPPATH\\Controllers\\Data.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-31 12:50:04 --> Undefined property: App\Controllers\Data::$DataModel
+in APPPATH\Controllers\Data.php on line 17.
+ 1 APPPATH\Controllers\Data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Data::$DataModel', 'APPPATH\\Controllers\\Data.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
