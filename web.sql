@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 01 Agu 2023 pada 10.44
+-- Waktu pembuatan: 03 Agu 2023 pada 16.33
 -- Versi server: 10.4.25-MariaDB
 -- Versi PHP: 8.1.10
 
@@ -40,7 +40,9 @@ CREATE TABLE `data` (
 INSERT INTO `data` (`Idbarang`, `Nm_barang`, `Jumlah`) VALUES
 (1, 'Baterai', 150),
 (2, 'Kecap', 115),
-(3, 'abc', 150);
+(3, 'abc', 150),
+(4, 'Green Tea', 225),
+(5, 'Mi ABC Selera Pedas ', 321);
 
 -- --------------------------------------------------------
 
@@ -51,7 +53,7 @@ INSERT INTO `data` (`Idbarang`, `Nm_barang`, `Jumlah`) VALUES
 CREATE TABLE `user` (
   `user_id` int(11) NOT NULL,
   `username` text NOT NULL,
-  `password` int(11) NOT NULL,
+  `password` varchar(11) NOT NULL,
   `level` int(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -60,8 +62,9 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`user_id`, `username`, `password`, `level`) VALUES
-(1, 'a@gmail.com', 1, 1),
-(2, 'Abdul', 123, 2);
+(2, 'Abdul', '123', 2),
+(3, 'admin', 'admin', 1),
+(4, 'gudang', 'gudang', 2);
 
 --
 -- Indexes for dumped tables
@@ -87,13 +90,13 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT untuk tabel `data`
 --
 ALTER TABLE `data`
-  MODIFY `Idbarang` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `Idbarang` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT untuk tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
