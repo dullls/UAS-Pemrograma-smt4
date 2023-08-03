@@ -195,8 +195,8 @@
         <div class="sidebar">
             <nav>
                 <ul>
-                    <li><a href="<?= base_url('Auth/loginG') ?>">Admin</a></li>
-                    <li><a href="<?= base_url('Auth/login') ?>">Gudang</a></li>
+                    <li><a href="<?= base_url('Auth/loginG') ?>">Gudang</a></li>
+                    <li><a href="<?= base_url('Auth/login') ?>">Admin</a></li>
                 </ul>
             </nav>
         </div>
